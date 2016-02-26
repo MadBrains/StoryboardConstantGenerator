@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Application.swift
 //  StoryboardConstantGenerator
 //
 //  Created by Иван Ушаков on 25.02.16.
@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
-
+do {
+    try Application().run();
+}
+catch let error as NSError  {
+    print(error);
+}
