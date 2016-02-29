@@ -10,6 +10,7 @@
 		B513D4F41C7F658200D57FED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513D4F31C7F658200D57FED /* main.swift */; };
 		B513D5081C7F65E500D57FED /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513D5071C7F65E500D57FED /* Application.swift */; };
 		B5FADB901C80688F00C0314E /* StoryboardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FADB8F1C80688F00C0314E /* StoryboardParser.swift */; };
+		B5FADB9A1C81F0AC00C0314E /* StencilNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FADB991C81F0AC00C0314E /* StencilNamespace.swift */; };
 		CA3E2FC9EFCC7525CE385F42 /* Pods_StoryboardConstantGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D12F8573B218C0FF0FE488 /* Pods_StoryboardConstantGenerator.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		B513D4FE1C7F658200D57FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B513D5071C7F65E500D57FED /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		B5FADB8F1C80688F00C0314E /* StoryboardParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardParser.swift; sourceTree = "<group>"; };
+		B5FADB991C81F0AC00C0314E /* StencilNamespace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StencilNamespace.swift; sourceTree = "<group>"; };
 		E3D12F8573B218C0FF0FE488 /* Pods_StoryboardConstantGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryboardConstantGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 			children = (
 				B513D5071C7F65E500D57FED /* Application.swift */,
 				B5FADB8F1C80688F00C0314E /* StoryboardParser.swift */,
+				B5FADB991C81F0AC00C0314E /* StencilNamespace.swift */,
 				B513D4F31C7F658200D57FED /* main.swift */,
 				B513D4F51C7F658200D57FED /* Info.plist */,
 			);
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FADB9A1C81F0AC00C0314E /* StencilNamespace.swift in Sources */,
 				B5FADB901C80688F00C0314E /* StoryboardParser.swift in Sources */,
 				B513D5081C7F65E500D57FED /* Application.swift in Sources */,
 				B513D4F41C7F658200D57FED /* main.swift in Sources */,

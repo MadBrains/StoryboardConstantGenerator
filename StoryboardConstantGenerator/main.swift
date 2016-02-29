@@ -10,7 +10,9 @@ import Foundation
 
 do {
     try Application().run();
+    exit(EX_OK)
 }
 catch let error as NSError  {
-    print(error);
+    print("Error: " + error.domain);
+    exit(EX_TEMPFAIL)
 }
